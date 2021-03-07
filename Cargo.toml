@@ -1,7 +1,7 @@
 [package]
 name = "libeeyyee"
 version = "0.1.0"
-authors = ["gitter2020 <gitter2020@example.com>"]
+authors = ["cleanyong <cleanyong2010@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -9,6 +9,7 @@ edition = "2018"
 [dependencies]
 curve25519-dalek = "3.0.0"
 x25519-dalek = "1.1"
+rand = "0.8.3"
 
 [dependencies.rand_core]
 version = "0.5"

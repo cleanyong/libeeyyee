@@ -8,6 +8,7 @@ mod tests {
     fn it_works() {
         use x25519_dalek::{EphemeralSecret, PublicKey};
         use rand_core::OsRng;
+        // use rand::rngs::OsRng;
 
         let alice_secret = EphemeralSecret::new(OsRng);
         let alice_public = PublicKey::from(&alice_secret);
